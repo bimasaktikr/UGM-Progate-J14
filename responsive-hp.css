@@ -2,7 +2,7 @@
 /*Header*/
  
 .header-left {
-  /* padding-bottom: 5px; */
+  padding-bottom: 5px;
 }
 
 .logo {
@@ -102,7 +102,7 @@
 .container-2 {
   display: flex;
   flex-direction: column;
-  
+  padding: 10px 10px 10px 10px;
 }
 
 .container-2 div{
@@ -198,8 +198,8 @@ text-align: center;
 
 .menu-list img {
 margin-bottom: 0px;
-width: 75%;
-height: 75%;
+width: 50%;
+height: 50%;
 padding: 10px 15px;
 }
 
@@ -217,69 +217,26 @@ padding-bottom: 10px;
 }  
 
   /* MAIN 3 - testimonial*/
-*{
-  margin: 0;
-  padding: 0;
-  font-family: "montserrat",sans-serif;
-}
-.testimonials{
-  padding: 20px 0;
-}
 
-.inner{
-  max-width: 1200px;
-  margin: auto;
-  overflow: hidden;
-  padding: 0 20px;
-}
-
-.border{
-  width: 80px;
-  height: 3px;
-  margin: 13px auto;
-}
-
-.col{
-   padding: 10px;
-}
-
-.testimonial{
-  padding: 15px;
-}
-
-.name{
-  font-size: 15px;
-  text-transform: uppercase;
-  margin: 20px 0;
-}
+  .inner h1{
+    font-size: 25px;
+  }
+  .col{
+    flex: 100%;
+    max-width: 100%;
+  }
 
 /*FOOTER*/
 footer {
-  height: 250px;
+  height: 150px;
+}
+.footer-content {
+  display: none;
 }
 
-.footer-title {
-  padding-top: 15px;
+.footer-android {
+  display: block;
 }
 
-.footer-content{
-  float: left;
-  width: 28%;
-  padding-left: 5%;
-}
-
-.footer-content h2{
-  font-size: 15px;
-}
-
-.footer-content p{
-  font-size: 10px;
-}
-
-.btn-playstore img{
-  height: 50px;
-  width: 75%;
-  padding-top: 5%;
-}
 }
 

@@ -382,3 +382,19 @@ footer {
   width: 50%;
   padding-top: 5%;
 }
+
+.footer-android {
+  margin-left: 20px;
+  padding-left: 10px;
+  display: none;
+}
+
+.footer-android h2{
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.footer-android li{
+  font-size: 10px;
+  list-style: none;
+}
