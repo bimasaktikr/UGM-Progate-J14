@@ -98,6 +98,39 @@ header {
 .a {
   display: block;
 }
+/* MAIN 1 - About Us */
+
+.contents-item {
+  float: left;
+  width: 50%;
+  position: relative;
+}
+.contents-item img{
+  width: 600px;
+  height: 400px;
+}
+/* h1{
+  color: red;
+  text-align: left;
+} */
+.contents-item h1{
+  color: orange;
+  position:absolute;
+  display: inline-block;
+  text-align:right;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.contents-item p{
+  color: white;
+  position: absolute;
+  display: inline-block;
+  text-align:justify;
+  padding-top: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 
 /*MAIN 2 - food gallery*/
 .main-2 {
@@ -139,56 +172,24 @@ header {
   font-weight: bold;
   color: #333;
 }
+
 /* MAIN 3 - testimonial*/
-
-.main-3 .title {
-  font-size: 2em;
-  color: #333;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
 }
-
-.container-3 {
-  max-width: 100%;
+.testimonials{
+  padding: 40px 0;
+  background: #f1f1f1;
+  color: #434343;
+  text-align: center;
+}
+.inner{
+  max-width: 1200px;
   margin: auto;
   overflow: hidden;
-  padding: 4rem 1rem;
-}
-
-.grid-3 {
-  display: grid;
-  grid-gap: 25px;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.grid-2 {
-  display: grid;
-  grid-gap: 25px;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.center {
-  text-align: center;
-  margin: auto;
-}
-
-.stars{
-  color: #6ab04c;
-  margin-top: 15px;
-}
-
-.testimonial{
-  /* background: #fff; */
-  padding: 30px;
-}
-
-.testimonial img{
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-}
-
-.testimonial p {
-  color: #333;
-  font-size: 1.5em;
+  padding: 0 20px;
 }
 
 .border{
@@ -198,10 +199,34 @@ header {
   margin: 26px auto;
 }
 
-.name {
-  color: #333;
-  font-size: 1.5em;
-  font-weight: bold;
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimonial{
+  background: #fff;
+  padding: 30px;
+}
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.name{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.stars{
+  color: #6ab04c;
+  margin-bottom: 20px;
 }
 
 /*FOOTER*/
