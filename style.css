@@ -31,11 +31,13 @@ header{
     
 }
 
+.body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
 
-
-
-
-	.main{
+/* TOP WRAPPER */
+  .main{
 		height:1000px;
 	}
 
@@ -64,9 +66,41 @@ header{
 		padding: 12px 24px;
 		background-color: #FE9D04;
 		display: inline-block; 
-	}
+  }
+  
+/* MAIN SATU - ABOUT US */
 
+.contents-item {
+  float: left;
+  width: 50%;
+  position: relative;
+}
+.contents-item img{
+  width: 600px;
+  height: 400px;
+}
 
+/* .main-1 h1{
+  color: red;
+  text-align: left;
+} */
+.contents-item h1{
+  color: orange;
+  position:absolute;
+  display: inline-block;
+  text-align:right;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.contents-item p{
+  color: white;
+  position: absolute;
+  display: inline-block;
+  text-align:justify;
+  padding-top: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 /* MAIN TIGA TESTIMONI */
 
