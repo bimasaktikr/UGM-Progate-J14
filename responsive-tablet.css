@@ -1,0 +1,224 @@
+@media (max-width : 1000px ) {
+/*Header*/
+
+.header-left{
+  padding-bottom: 10px;
+  font-size: 2em;
+  overflow: hidden;
+  line-height: 0px;
+}
+
+.logo {
+  padding : 25px;
+}
+
+.logo span{
+  color: #6ab04c;
+  top: 0;
+}
+
+.header-right{
+  padding-top: 15px;
+ float:right;
+ background-color:#fff;
+ transition: all 0.5s;
+ overflow: hidden;
+}
+
+.header-right a:hover{
+  background-color:rgba(192, 195, 192, 0.2);
+}
+
+.header-right a {
+  float: left;
+  line-height: 30px;
+  padding : 0 15px;
+  font-size:1em;
+}
+
+/* TOP WRAPPER */
+  .top-wrapper p {
+    font-size: 15px;
+    padding-bottom: 5px;
+    border-bottom:1px solid #dee7ec;
+    z-index: -1;
+    font-weight: 100;
+  }
+
+  .top-wrapper h1 {
+    font-size: 30px;
+  }
+
+  .btn {
+    padding: 6px 12px;
+    color: #fff;
+    display: inline-block;
+    opacity: 0.8;
+    background-color: #6ab04c;
+    border-radius: 6px;
+  }
+
+  .btn a {
+    font-size: 15px;
+  }
+
+  /* MAIN SATU */
+   
+  .container-2 div{
+    /* border: 1px #ccc solid; */
+    padding : 5px;
+  }
+
+  .content-2-left{
+    flex:1;
+    margin-bottom: 50px;
+  }
+  
+  .content-2-left img{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .content-2-right{
+    margin-top: 50px;
+    padding: 12px;
+  }
+  
+  .content-2-right h1{
+    font-size: 40px;
+    padding-right: 20px;
+  }
+  
+  .content-2-right h2{
+    border-bottom: 2px #ccc solid;
+    padding-bottom: 15px;
+    padding-right: 20px;
+  }
+  
+  .content-2-right p{
+    line-height: 20px;
+    padding-right: 20px;
+    font-size: 10px;
+  }
+
+  /* MAIN DUA - Food galery */
+  .main-2 {
+    width: 100%;
+    margin-bottom: 50px;
+    /* height: 1400px; */
+  }
+  
+  .main-2 .title {
+    margin-top: 50px;
+    /* text-align: center; */
+    font-size: 1em;
+    /* color: #333; */
+  }
+  
+  .border {
+    width: 100px;
+    height: 5px;
+    /* background: #6ab04c;
+    margin: 26px auto; */
+  }
+  /* .menu {
+    display: flex;
+    justify-content: space-between;
+  } */
+  
+  .menu div {
+    /* border: 1px #ccc solid; */
+    padding : 5px;
+  }
+  
+  .menu-list {
+    flex: 1;
+    text-align: center;
+    /* width: 15%; */
+    
+  }
+  
+  .menu-list img {
+    margin-bottom: 5px;
+    width: 75%;
+    height: 75%;
+    padding: 5px 5px;
+  }
+  
+  .star-2 {
+    margin-top: 0px;
+  }
+  .menu-name{
+    font-size: 15px;
+  }
+ 
+  /* MAIN 3 - testimonial*/
+
+.testimonials{
+  padding: 20px 0;
+}
+
+.testimonials p{
+  font-size: 12px;
+}
+
+.inner{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.border{
+  width: 80px;
+  height: 3px;
+  margin: 13px auto;
+}
+
+.col{
+   padding: 10px;
+}
+
+.testimonial{
+  padding: 15px;
+}
+
+.name{
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+/*FOOTER*/
+footer {
+  height: 250px;
+}
+
+.footer-title {
+  padding-top: 15px;
+}
+
+.footer-content{
+  float: left;
+  width: 28%;
+  padding-left: 5%;
+}
+
+.footer-content h2{
+  font-size: 15px;
+}
+.footer-content li{
+  font-size: 12px;
+}
+
+.footer-content p{
+  font-size: 10px;
+}
+
+.btn-playstore img{
+  height: 50px;
+  width: 75%;
+  padding-top: 5%;
+}
+}
+

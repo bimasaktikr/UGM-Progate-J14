@@ -30,9 +30,23 @@ header {
   line-height: 0px;
 }
 
+.logo {
+  padding : 25px;
+}
+
 .logo span{
   color: #6ab04c;
   top: 0;
+}
+/* Menu Icon */
+.menu-icon {
+  color: #333;
+  float: right;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-right: 50px;
+  /* Gantikan property display ke none */
+  display:none;
 }
 
 .header-right{
@@ -44,7 +58,7 @@ header {
 }
 
 .header-right a:hover{
-  background-color:rgba(192, 195, 192, 0.2);;
+  background-color:rgba(192, 195, 192, 0.2);
 }
 
 .header-right a {
@@ -61,8 +75,8 @@ header {
 .container-1  {
   display: flex;
 }
-.container-1  div{
-  border: 1px #ccc solid;
+.container-1 div{
+  /* border: 1px #ccc solid; */
   padding : 10px;
 }
 
@@ -70,7 +84,11 @@ header {
   flex: 2;
   order: 2;
   float: right;
-  opacity: 0.9;
+  opacity: 0.8;
+}
+
+.content-1-right:hover {
+  opacity: 1;
 }
 
 .content-1-right img{
@@ -155,12 +173,13 @@ header {
   padding-left: 10px;
   padding-right: 10px;
 } */
+
 .container-2 {
   display: flex;
 }
 
 .container-2 div{
-  border: 1px #ccc solid;
+  /* border: 1px #ccc solid; */
   padding : 10px;
 }
 .content-2-left{
@@ -177,22 +196,25 @@ header {
   margin-top: 100px;
   padding: 25px;
   flex:1;
-  background-color: #6ab04c;
+  background-color: rgba(42, 69, 30  , 0.9);
   color: #ccc;
   text-align: right;
 }
 
 .content-2-right h1{
   font-size: 80px;
+  padding-right: 75px;
 }
 
 .content-2-right h2{
   border-bottom: 4px #ccc solid;
   padding-bottom: 15px;
+  padding-right: 75px;
 }
 
 .content-2-right p{
   line-height: 25px;
+  padding-right: 75px;
 }
 
 /*MAIN 2 - food gallery*/
@@ -221,7 +243,7 @@ header {
 }
 
 .menu div {
-  border: 1px #ccc solid;
+  /* border: 1px #ccc solid; */
   padding : 10px;
 }
 
@@ -239,6 +261,10 @@ header {
   padding: 10px 15px;
 }
 
+.menu-list img:hover {
+  opacity: 0.8;
+}
+
 .star-2 {
   margin-top: 10px;
   color: #6ab04c; 
@@ -247,6 +273,8 @@ header {
 .menu-name{
   padding-bottom: 10px;
 }
+
+
 
 /* MAIN 3 - testimonial*/
 *{
@@ -326,6 +354,14 @@ footer {
   float: left;
   width: 28%;
   padding-left: 5%;
+}
+
+.footer-content h2{
+  font-size: 30px;
+}
+
+.footer-content p{
+  font-size: 15px;
 }
 
 .footer-content li {

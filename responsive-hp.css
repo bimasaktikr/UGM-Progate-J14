@@ -1,0 +1,285 @@
+@media (max-width : 670px) {
+/*Header*/
+ 
+.header-left {
+  /* padding-bottom: 5px; */
+}
+
+.logo {
+  padding : 0px;
+  font-size: 20px;
+}
+
+.logo span{
+  color: #6ab04c;
+  top: 0;
+}
+
+/* Menghilangkan tampilan daftar */
+.header-right{
+ display: none;
+}
+
+/* Menampilkan icon menu */
+.menu-icon {
+  display: block;
+}
+
+
+/*TOPWRAPPER*/
+.container-1  {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.container-1 div{
+  /* border: 1px #ccc solid; */
+  padding : 0px;
+}
+
+.content-1-right {
+  padding-left: 40px;
+  padding-top: 40px;
+
+  flex: 2;
+  order: 2;
+  float: left;
+  opacity: 0.8;
+}
+
+.content-1-right:hover {
+  opacity: 1;
+}
+
+.content-1-right img{
+  height: 100%;
+  width: 100%;
+}
+
+.content-1-left{
+  flex: 1;
+  order: 1;
+}
+
+.top-wrapper {
+  margin-top: 80px;
+  padding: 10px 10px 10px 10px;
+  color: black;
+  opacity: 0.8;
+}
+
+.top-wrapper p {
+  font-size: 30px;
+  padding-bottom: 10px;
+  border-bottom:2px solid #dee7ec;
+  z-index: -1;
+  font-weight: 100;
+}
+
+.top-wrapper h1{
+  font-size: 60px;
+}
+
+.btn {
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.btn a {
+  font-size: 10px;
+}
+
+
+.btn:hover {
+  opacity: 1;
+}
+
+.a {
+  display: block;
+}
+
+  /* MAIN SATU */
+ 
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.container-2 div{
+  /* border: 1px #ccc solid; */
+  padding : 3px;
+}
+.content-2-left{
+  flex:0;
+  margin-bottom: 0px;
+}
+
+.content-2-left img{
+  height: 0%;
+  width: 0%;
+  display: none;
+}
+
+.content-2-right{
+  margin-top: 0px;
+  padding: 0px;
+  flex:1;
+}
+
+.content-2-right:after {
+  background-image: url("img/phpThumb_generated_thumbnail.jpeg");
+  background-size: cover; /* Resize the background image to cover the entire container */
+  opacity: 0.9;
+}
+
+.content-2-right h1{
+  font-size: 20px;
+  padding-right: 50px;
+}
+
+.content-2-right h2{
+  border-bottom: 4px #ccc solid;
+  padding-bottom: 15px;
+  padding-right: 75px;
+}
+
+.content-2-right p{
+  line-height: 15px;
+  padding-right: 75px;
+}
+
+
+.content-2-right h1{
+font-size: 80px;
+padding-right: 75px;
+}
+
+.content-2-right h2{
+border-bottom: 4px #ccc solid;
+padding-bottom: 15px;
+padding-right: 75px;
+}
+
+.content-2-right p{
+line-height: 25px;
+padding-right: 75px;
+}
+
+/*MAIN 2 - food gallery*/
+.main-2 {
+width: 100%;
+margin-bottom: 30px;
+}
+
+
+.border {
+width: 160px;
+height: 5px;
+background: #6ab04c;
+margin: 26px auto;
+}
+
+.menu {
+display: flex;
+flex-direction: column;
+}
+
+.menu div {
+/* border: 1px #ccc solid; */
+padding : 10px;
+}
+
+.menu-list {
+flex: 1;
+text-align: center;
+/* width: 15%; */
+
+}
+
+.menu-list img {
+margin-bottom: 0px;
+width: 75%;
+height: 75%;
+padding: 10px 15px;
+}
+
+.menu-list img:hover {
+opacity: 0.8;
+}
+
+.star-2 {
+margin-top: 10px;
+color: #6ab04c; 
+}
+
+.menu-name{
+padding-bottom: 10px;
+}  
+
+  /* MAIN 3 - testimonial*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+.testimonials{
+  padding: 20px 0;
+}
+
+.inner{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.border{
+  width: 80px;
+  height: 3px;
+  margin: 13px auto;
+}
+
+.col{
+   padding: 10px;
+}
+
+.testimonial{
+  padding: 15px;
+}
+
+.name{
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+/*FOOTER*/
+footer {
+  height: 250px;
+}
+
+.footer-title {
+  padding-top: 15px;
+}
+
+.footer-content{
+  float: left;
+  width: 28%;
+  padding-left: 5%;
+}
+
+.footer-content h2{
+  font-size: 15px;
+}
+
+.footer-content p{
+  font-size: 10px;
+}
+
+.btn-playstore img{
+  height: 50px;
+  width: 75%;
+  padding-top: 5%;
+}
+}
+
