@@ -58,16 +58,36 @@ header {
 }
 
 /*TOPWRAPPER*/
+.container-1  {
+  display: flex;
+}
+.container-1  div{
+  border: 1px #ccc solid;
+  padding : 10px;
+}
+
+.content-1-right {
+  flex: 2;
+  order: 2;
+  float: right;
+  opacity: 0.9;
+}
+
+.content-1-right img{
+  height: 100%;
+  width: 100%;
+}
+
+.content-1-left{
+  flex: 1;
+  order: 1;
+}
+
 .top-wrapper {
   margin-top: 20px;
   padding: 80px 0 100px 50px;
   color: black;
   opacity: 0.8;
-}
-
-.image-right {
-  float: right;
-  opacity: 0.9;
 }
 
 .top-wrapper p {
@@ -98,12 +118,17 @@ header {
 .a {
   display: block;
 }
-/* MAIN 1 - About Us */
 
+
+/* MAIN 1 - About Us */
+/* .contents {
+  display: flex;
+}
 .contents-item {
-  float: left;
+  /* float: left;
   width: 50%;
-  position: relative;
+  position: relative; 
+  flex: 1;
 }
 .contents-item img{
   width: 600px;
@@ -112,7 +137,7 @@ header {
 /* h1{
   color: red;
   text-align: left;
-} */
+} 
 .contents-item h1{
   color: orange;
   position:absolute;
@@ -129,13 +154,52 @@ header {
   padding-top: 60px;
   padding-left: 10px;
   padding-right: 10px;
+} */
+.container-2 {
+  display: flex;
 }
 
+.container-2 div{
+  border: 1px #ccc solid;
+  padding : 10px;
+}
+.content-2-left{
+  flex:1;
+  margin-bottom: 100px;
+}
+
+.content-2-left img{
+  height: 100%;
+  width: 100%;
+}
+
+.content-2-right{
+  margin-top: 100px;
+  padding: 25px;
+  flex:1;
+  background-color: #6ab04c;
+  color: #ccc;
+  text-align: right;
+}
+
+.content-2-right h1{
+  font-size: 80px;
+}
+
+.content-2-right h2{
+  border-bottom: 4px #ccc solid;
+  padding-bottom: 15px;
+}
+
+.content-2-right p{
+  line-height: 25px;
+}
 
 /*MAIN 2 - food gallery*/
 .main-2 {
   width: 100%;
-  height: 1400px;
+  margin-bottom: 100px;
+  /* height: 1400px; */
 }
 
 .main-2 .title {
@@ -151,26 +215,37 @@ header {
   background: #6ab04c;
   margin: 26px auto;
 }
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu div {
+  border: 1px #ccc solid;
+  padding : 10px;
+}
+
+.menu-list {
+  flex: 1;
+  text-align: center;
+  /* width: 15%; */
+  
+}
 
 .menu-list img {
   margin-bottom: 5px;
-  width: 320px;
-  height: 320px;
-  max-width: 100%;
+  width: 75%;
+  height: 75%;
+  padding: 10px 15px;
+}
+
+.star-2 {
   margin-top: 10px;
+  color: #6ab04c; 
 }
 
-.menu-name {
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
-
-.menu-name h3{
-  flex: auto;
-  text-align: center;
-  font-weight: bold;
-  color: #333;
+.menu-name{
+  padding-bottom: 10px;
 }
 
 /* MAIN 3 - testimonial*/
